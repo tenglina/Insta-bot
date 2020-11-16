@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug  3 18:12:32 2020
+Created on Mon Jul  3 18:12:32 2020
 
 @author: nandinitengli
 """
@@ -70,8 +70,6 @@ class InstaBot:
         
         
             
-        
-        
-
-bot1 = InstaBot('neha_te', '')
-bot1.get_unfollowers()
+#creating an instance/calling the bot:
+#create and store username and password in respective variables-- username and Password or directly enter username and password as strings when creating an instance of the bot 
+bot1 = InstaBot(username, Password)
